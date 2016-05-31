@@ -1,0 +1,72 @@
+body{
+	font-family: sans-serif;
+	margin: 0 auto;
+	padding: 0;
+	width: 1280px;
+}
+
+.houder{
+	width: 300px;
+	margin: 10px;
+	float: left;
+	height: 240px;
+	padding: 0;
+}
+
+.afbeelding{
+	width: 300px;
+	height: 180px;
+	overflow: hidden;
+}
+.afbeelding img{
+	width: 100%;
+}
+
+h4{
+	background-color: #ccc;
+	margin: 0;
+}
+p#bron{
+	clear: both;
+	text-align: center;
+}
+p#bron a{
+	font-size: 9px;
+	text-decoration: none;
+	color: #aaa;
+}
+
+h3{
+	text-align: center;
+}
+.zoek{
+	display: flex;
+	justify-content: center;
+}
+#zoekwoorden{
+	width: 400px;
+	height: 40px;
+	font-size: 20px;
+	border: 1px solid #ccc;
+}
+#zoekwoorden:hover{
+	border: 1px solid blue;
+}
+
+#haalFotos{
+	height: 40px;
+	background-color: #0080FF;
+}
+#haalFotos:hover{
+	background-color: #006BFF;
+}
+#haalFotos img{
+	height: 25px;
+}
+
+#validatie img {
+    height: 1em;
+    width: auto;
+    border: 0;
+    margin: 0 .3em;
+}
